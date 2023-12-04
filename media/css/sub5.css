@@ -1,0 +1,266 @@
+/* 와이드 pc  */
+section{margin-bottom: 80px;}
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+   left:50%; margin-left: -90px; bottom: 10%;
+  animation:ani 1s infinite  alternate;}
+@keyframes ani {
+  0% { transform:scale(1); opacity:1; color:#000;}
+  100% { transform:scale(1.1); opacity:0.8; color:#fff;}
+}	
+.down img{margin-left: 50px;}
+
+
+
+#content{ width:100%; margin:0;position: relative;}
+
+#content h3{font-family:'Zeyada', cursive; color:#94CE50;font-size: 5em;text-align: center;}
+
+
+
+/* member*/
+/* #content .member{display: block;
+  background: url(../images/sub5/group.png) no-repeat;
+  background-size: cover;} */
+  #content .info{position: relative;}
+#content .info img{filter: brightness(.5);width:100%;left: 50%;}
+#content .info p{position: absolute;top: 40%;left: 50%;transform: translate(-50%);z-index: 2;text-align: center;font-size: 3em;font-weight: 900;}
+
+
+#content .member {
+  background: #000;
+  padding: 80px 40px 0 40px;
+}
+#content .member>img{width: 100%;
+  object-fit: cover;filter: brightness(0.4);
+  object-position: center bottom;
+  position: absolute;
+  bottom: 0;
+left: 0;}
+
+.swiper-container {
+width: 100%;
+  height: 100%;
+
+}
+.swiper-slide {
+  text-align: center;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-wrapper img{width: 100%;}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after{content:''}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  content: '';}
+  .swiper-button-prev, .swiper-container-rtl .swiper-button-next {top: 40%;
+    left: 0;
+    right: auto;}
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{top: 40%;
+      left: auto;
+      right: 0;}
+
+  
+  .swiper-button-next:after {
+    background: url(../images/sub5/btn.png) no-repeat;
+    width: 100%;
+    height: 100%;}
+.swiper-button-next {
+
+  width: 60px;
+  height: 60px;
+}
+
+.swiper-button-prev:after {
+  background: url(../images/sub5/btn.png) no-repeat;
+    width: 100%;
+    height: 100%;}
+    .swiper-button-prev {
+
+      width: 90px;
+      height: 90px;
+
+  }
+
+
+.box{  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 150px; */
+  grid-gap: 10px;padding: 70px;}
+
+
+.img1 img{border-radius: 20%;
+  width: 70%;
+  outline: 5px dashed #fff;
+  outline-offset: 15px;}
+
+
+.img2 ul{display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-rows: 150px; */
+  grid-gap: 50px;
+  margin-top: 100px;
+}
+
+.img2 ul li{position: relative;}
+
+.img2 ul li::before{z-index: -1;
+  width: 105%;
+  height: 105%;
+    content: "";
+    display: block;
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+    opacity: .5;
+
+    animation: pulsate 3s linear infinite;
+}
+.img2 ul li img{    object-fit: cover; cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-position: 50% 50%;transition: all .3s;}
+
+.img2 dl{}
+.img2 dl dt{font-size: 2em;margin-bottom: 10px;}
+.img2 dl dt dd {text-align: justify;}
+.img2 dd span{font-weight: 600;margin-right: 10px;}
+
+.img2 ul li img:hover{filter: brightness(.8) hue-rotate(304deg);
+  transform: scale(0.98);}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+  section{margin-bottom: 50px;}
+  .img2 ul li p::before{ width: 80px;
+    height: 80px;      top: -25px;
+    left: -20px;
+}
+}
+
+
+
+
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+  #content h3{font-size: 3em;}
+  .img1 img{width: 80%;}
+  .img2 ul li p::before{ width: 65px;
+    height: 65px;      top: -25px;
+    left: -20px;
+}
+#content .info p{top: 30%;font-weight: 600;}
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+  section{ padding: 10px 10px 0 10px;}
+  #content .member {
+    padding: 40px 10px 0 10px;
+}
+.box{padding-top:40px;}
+  .img1 img{width: 90%;}
+  #content .info p{font-size: 2em;}
+  .img2 ul li p::before {
+    width: 45px;
+    height: 45px;
+    top: -20px;
+    left: -20px;
+}
+.img1 img{border-radius: 20%;
+  width: 80%;
+  outline: 5px dashed #fff;
+  outline-offset: 10px;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+  #content h3{font-size: 2em;}
+  .img1 img{width: 100%;}
+  .box{grid-template-columns: repeat(1, 1fr);} 
+  #content .member {
+    padding: 20px 10px 0 10px;
+}
+  .img2 dl{margin-top: 30px;}
+  .img2 ul{margin-top: 30px;
+    grid-gap: 20px;
+}
+
+  .img2 ul li img{ width: 100%;}
+  #content .info p{font-size: 1.5em;}
+  .swiper-button-prev, .swiper-container-rtl .swiper-button-next {top: 50%;
+   }
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{top: 50%;
+    }
+    .swiper-button-next:after {
+      background: url(../images/sub5/btn2.png) no-repeat;
+      width: 100%;
+      height: 100%;}
+  .swiper-button-next {
+  
+    width: 40px;
+    height: 40px;
+  }
+  
+  .swiper-button-prev:after {
+    background: url(../images/sub5/btn2.png) no-repeat;
+      width: 100%;
+      height: 100%;}
+      .swiper-button-prev {
+  
+        width: 40px;
+        height: 40px;
+  
+    }
+}
+
+@keyframes pulsate {
+  50% {
+    box-shadow:
+      0 0 20px #fff,
+      20px 0 80px #f0f,
+      -20px 0 80px #0ff,
+      inset 0 0 50px #fff,
+      inset -50px 0 80px #f0f,
+      inset 50px 0 80px #0ff,
+      inset -50px 0 100px #f0f,
+      inset 50px 0 100px #0ff;
+  }
+}
+
+@media screen and (max-width:480px){
+  #content .info p{font-size: 1em;top: 35%;}
+}
