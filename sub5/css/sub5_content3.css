@@ -1,0 +1,22 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+
+#content h3{font-size:2.188em; color: #023793;margin-bottom: 50px;} 
+
+.content_area .step{margin-bottom: 150px;}
+.content_area .step ul{overflow: hidden;padding: 15px;}
+.content_area .step li {width: 350px;margin: 15px;float: left;text-align: center;border-radius: 20px;box-shadow: 2px 2px 15px 1px rgba(0,0,0,.4);transition: all .2s ease-in;}
+.content_area .step li:hover{box-shadow: 2px 2px 15px 1px rgba(13, 98, 255, 0.4);}
+.content_area .step li dl{height: 130px;padding: 20px;}
+.content_area .step li dl dt{text-align: center;margin-bottom: 10px;font-size: 1.4em;color: #05767d;font-weight: 700;}
+.content_area .step li dl dd{line-height: 2em;}
+
+.info p{font-size: 1.27em;}
+.info table{text-align: center;margin-bottom: 150px;margin-top: 80px;width: 1200px;}
+
+.info table thead{border-bottom:3px solid #023793;border-top: 3px solid #023793;background: #b9d0f7;}
+.info table thead tr th{padding: 20px;font-size: 1.5em;}
+.info table tbody{border-bottom: 3px solid #023793;}
+.info table tbody tr td{padding: 20px;font-size: 1.5em;border-bottom: 2px solid #88aae5;}
+

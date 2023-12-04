@@ -1,0 +1,46 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h4{font-size:2.188em; color: #023793;} 
+#content h3{font-size:2.188em; color: #023793;} 
+
+/* graph */
+.graph div{width: 1200px;height: 600px;background-color: #023793;margin-bottom: 80px;}
+.graph div p{color: #fff;font-size: 1.25em;}
+
+/* table */
+table {text-align: center;width: 1200px;margin-bottom: 150px;}
+table caption{text-align: right;}
+table thead tr th{padding: 5px;font-size: 1.5em;border-top: 3px solid #023793;border-bottom:2px solid #88aae5;}
+table thead tr th{font-size: 1.5em;}
+table tr:nth-of-type(1) td:nth-of-type(2){border-right: none;}
+
+table tbody{position: relative;overflow: hidden;font-size: 1.25em;}
+table tbody tr td{border-bottom: 2px solid #88aae5;padding: 10px 0;}
+
+table tfoot tr td{border-bottom: 3px solid #023793;padding: 10px 0;font-size:1.5em;}
+table tfoot tr td:nth-of-type(1) {background:#88aae5; color: #fff;}
+table tfoot tr td:nth-of-type(2) {background-color: aliceblue;color: #023793;}
+
+
+
+
+/* table 1 */
+.property tbody tr:nth-of-type(1) td:nth-of-type(1){background-color: #d6ebea;color: #023793;font-size: 1.3em;}
+.property tbody tr:nth-of-type(6){background-color:aliceblue;color: #023793;font-size: 1.3em;}
+
+.property tbody tr:nth-of-type(7) td:nth-of-type(1){background-color: #d6ebea;color: #023793;font-size: 1.3em;}
+.property tbody tr:nth-of-type(12){background-color: aliceblue;color: #023793;font-size: 1.3em;}
+
+
+/* table 2 */
+.liabilities tbody tr:nth-of-type(1) td:nth-of-type(1){background-color: #d6ebea;color: #023793;font-size: 1.3em;}
+.liabilities tbody tr:nth-of-type(4){background-color:aliceblue;color: #023793;font-size: 1.3em;}
+
+.liabilities tbody tr:nth-of-type(5) td:nth-of-type(1){background-color: #d6ebea;color: #023793;font-size: 1.3em;}
+.liabilities tbody tr:nth-of-type(8){background-color:aliceblue;color: #023793;font-size: 1.3em;}
+
+
+/* table 3 */
+
+.income_statement table tbody tr:nth-of-type(12){border-bottom: 3px solid #023793;}

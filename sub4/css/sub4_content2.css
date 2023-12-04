@@ -1,0 +1,25 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h4{font-size:2.188em; color: #023793;} 
+#content h3{font-size:2.188em; color: #023793;} 
+
+/* graph */
+.graph div{width: 1200px;height: 600px;background-color: #023793;margin-bottom: 80px;}
+.graph div p{color: #fff;font-size: 1.25em;}
+
+/* table */
+table {text-align: center;width: 1200px;margin-bottom: 150px;}
+table thead tr:nth-of-type(1) th{font-size: 1.5em;border-top: 3px solid #023793;}
+table thead tr:nth-of-type(1){padding: 5px;border-top: 3px solid #023793;border-bottom:2px solid #88aae5;}
+
+
+table thead tr:nth-of-type(2){border-bottom :3px solid #023793;}
+
+table tbody{position: relative;overflow: hidden;font-size: 1.25em;border-bottom: 3px solid #023793;}
+table tbody tr td{border-bottom: 2px solid #88aae5;padding: 10px 0;}
+
+
+
+
+

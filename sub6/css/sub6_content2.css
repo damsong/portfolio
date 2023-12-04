@@ -1,0 +1,21 @@
+/* 회사 소개 본문 css */
+#content .content_area{overflow: hidden;}
+#content .content_left{float: left;margin-right: 150px;}
+#content  .content_area .content_right{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h4{font-size:2.188em; color: #023793;} 
+#content h3{font-size:2.188em; color: #023793;} 
+
+
+#content dl{margin: 30px 0 150px 0;}
+#content dl dt{font-size: 1.5em;margin: 10px 0 20px 0;}
+#content  dl dd{margin-bottom: 10px; position: relative;}
+#content  dl dd span{ font-size: 1.4em;
+    color: #023793;}
+
+#content #info dl span{ font-size: 1.4em;
+    color: #023793;
+    position: relative;
+    left: 0;
+    top: 5px;
+}

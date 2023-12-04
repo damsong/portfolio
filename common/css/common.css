@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+  /* font-family: 'Montserrat', sans-serif; */
+
+  @import url('aos.css');
+/* aos js */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+html{font-size:16px;}
+body{font-family:  'Noto Sans KR', sans-serif; 
+  color: #333;}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none; display: block;}
+img{border: 0; vertical-align: top;}
+
+#skipNav{position:relative;width:100%;overflow:hidden; z-index: 110; font-family: 'Noto Sans KR', sans-serif;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;overflow:hidden; text-align:center;color:#fff; font-size:1.2em; font-weight: 700;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{display:block;height:auto;padding:15px 0; background: rgba(2,55,147,1);}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff;}
+
+  /* wrap  */
+.wrap{width: 100%;overflow: hidden;}
+
+/* 헤더공통 css */
+#headerArea{width: 100%;border-bottom: 1px solid #ccc;background:#fff;position: fixed;left: 0;top: 0;z-index: 100;}
+#headerArea .header_inner{width: 1200px;margin: 0 auto;background: #fff;position: relative;height: 153px;}
+
+#headerArea .logo{width: 225px;height: 55px;position: relative;left: 50%;top:15px;margin: 0 0 20px -100px;}
+#headerArea .logo a{display: block;width: 225px;height: 55px;text-indent: -999px;overflow: hidden;background:url(../images/header_logo01.png)}
+
+#headerArea .top_menu{overflow: hidden;position: absolute;right:0; top:40px;}
+#headerArea .top_menu li{float: left;margin-right: 30px;}
+#headerArea .top_menu li:last-child{margin-right: 0;}
+#headerArea .top_menu li a{color: #666;font-size: 1.125em;display: block;font-family: 'Noto Sans KR', sans-serif;font-weight: 400;}
+
+
+#gnb{clear:both;width:1200px;} 
+
+#gnb ul.dropdownmenu{float:left; width: 100%;}
+	#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:16.66%; height: 62px;}
+	/* 높이를 써줘야해!!! height */
+    #gnb ul.dropdownmenu li a.depth1{display:block;padding: 22px 0; text-align: center; transition: all .5s;}
+			  /* 백그라운드 컬러 넣어서 영역 확인하면서 하기 */
+	
+	
+    /* 2depth */
+	#gnb ul.dropdownmenu li ul{width:100%; position:absolute;top: 55px;left:0; height: 120px;padding: 20px 0; line-height:2em; display:none;}
+	/* 제일 긴 메뉴에서 조금 더 넉넉하게 heinght넣어주기 */
+
+	#gnb ul.dropdownmenu li ul li{ text-align:center; font-weight:600;}
+	/* li에 높이주지않기 */
+	#gnb ul.dropdownmenu li ul li a{display:block;  color:#666; transition: all .5s;}
+	/* a dislpay:block 꼭 넣어주기 공간주고싶으면 a한테 padding주기! */
+	#gnb ul.dropdownmenu li ul li a:hover{color:#fff; background: #668ccc;}
+/* 호버 시 효과는 내 마음대로~ 예쁘게! */
+
+
+#headerArea #gnb li a.depth1{display: block;font-size: 1.375em;font-family: 'Noto Sans KR', sans-serif;font-weight: 700;text-transform: uppercase;}
+
+
+
+/* 푸터공통 css */
+#footerArea{width: 100%;height: 250px;border-bottom: 1px solid #ccc;background-color: #edf4ff;}
+#footerArea .top_move{width: 70px;height: 70px;color: #fff;background: #666;border-radius: 50%;font-size: 1.25em;position: fixed;left: 50%;bottom: 150px;margin-left: 700px; transition: all .5s;z-index: 80;display: none;}
+#footerArea .top_move:hover{background: #023793;}
+#footerArea .top_move span{display: block;text-align: center;padding-top: 20px;}
+#footerArea .footer_inner{width: 1200px;margin: 0 auto;position: relative;text-align: center;padding-top: 30px;}
+#footerArea .footer_inner .footer_logo{margin-bottom: 15px;}
+#footerArea .footer_inner .footer_menu{overflow: hidden;}
+#footerArea .footer_inner .footer_menu li{float: left;margin-right: 40px;font-weight: 700;position: relative;left: 330px;}
+#footerArea .footer_inner .footer_menu li:last-child{margin-right: 0;}
+#footerArea .footer_inner address{position: relative;}
+#footerArea .footer_inner .copy{position:absolute;top: 150px;left: 365px;}
+#footerArea .footer_inner .sns{overflow: hidden;position: absolute;right: 0; top: 0;}
+#footerArea .footer_inner .sns li{float: left;margin-right: 30px;font-size:  3.125em ;padding-top: 80px;}
+#footerArea .footer_inner .sns li:last-child{margin-right: 0;}
+#footerArea .sns li a { color: #999;transition: all .3s;}
+#footerArea .sns li:nth-of-type(1) a:hover{color: #3b5999;}
+#footerArea .sns li:nth-of-type(2) a:hover{color: purple;}
+#footerArea .sns li:nth-of-type(3) a:hover{color: #dd4b39;}
+
+
+
+
+#footerArea .family{width:150px;  background:#fff; border:1px solid #ccc;
+  position: absolute;right: 0;top: 30px; z-index: 10;}
+#footerArea .family .arrow{ display:block; font-size:1em; padding: 10px 0;
+  text-align: center; transition: all 1s;}
+#footerArea .family .arrow i{font-size:.8em ; color: red;}
+#footerArea .family .arrow:hover{color:#fff; background: #023793;}
+#footerArea .family .aList{ position:absolute; top:-177px; left:-1px; width:150px; 
+  border:1px solid #ccc; display:none}
+#footerArea .family .aList li{ line-height:1.5em; border-bottom:1px solid #ccc;}
+#footerArea .family .aList li a{display:block;text-align: center; padding: 5px 0; transition: all 1s;}
+#footerArea .family .aList li a:hover{color:#fff; background: #023793;}
+
+
+
+
+
+
+
+
+
+
+
+
+

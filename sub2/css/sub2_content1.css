@@ -1,0 +1,74 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h3{font-size:2.188em;}
+
+/* 도시가스 */
+#citygas{overflow: hidden;margin-bottom: 100px;}
+#citygas img{float: left;width: 400px;}
+#citygas div{width: 600px;float: right;}
+#citygas div p{text-align: justify;font-size:1.25em;margin-top: 100px;}
+
+/* 장점 */
+#advantage{overflow: hidden;margin-bottom: 100px;}
+#advantage h3{text-align: center;}
+#advantage ul{overflow: hidden;position: relative;margin-left: 30px;}
+#advantage ul li{float: left;margin-right: 30px;margin-left: 50px;padding-top: 50px;position: relative;}
+
+#advantage ul li::before{content:"";display: block;background-color: #999;width: 180px;height: 180px;position: absolute;border-radius: 50%;z-index: -10;opacity: .5;}
+#advantage ul li::after{content:"";display: block;border: 1px solid #339999;width: 220px;height: 220px;position: absolute;border-radius: 50%;z-index: -10;top: 30px;right: 0;transition: all .5s;}
+#advantage ul li:hover::after{transform: scale(1.1);}
+#advantage ul li:last-child{}
+#advantage ul li span{font-size: 9.375em;padding-left: 14px;padding-top: 14px;color: #999;transition: all .4s;}
+#advantage ul li span:hover{color: #339999;}
+
+#advantage dl{width: 200px;margin-top: 50px;}
+#advantage dt{text-align: center;margin-bottom: 10px;font-size: 1.25em;}
+#advantage dd{text-align: justify;}
+
+/* 공급현황 */
+#supply div{position: relative;}
+#supply p{font-size: 1.5em;color: #339999;font-weight: 600;position: relative;}
+#supply span{color: #023793;position: absolute;transition: all .5s;font-size: 1.5em ;opacity: .5;}
+#supply span:hover{transform:  rotateY(180deg);}
+#supply p:nth-of-type(1){position: absolute;top: 300px;left: 600px;}
+#supply p:nth-of-type(2){position: absolute;bottom: 230px;left: 300px;}
+
+#supply .box{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 110;
+}
+
+
+#supply .big{ 
+  width: 1000px;
+  border: 1px solid #999;
+  background: #fff;
+  position: absolute;
+  padding: 10px;
+  left: 50%;
+  top:50%;
+  transform: translate(-50% , -50%);
+  overflow: hidden;
+  display: none;
+  z-index: 120;
+}
+#supply .big h3{text-align: center;color: #023793;}
+#supply .big table{margin: 100px auto;border-top: 3px solid #023793;width: 800px;text-align: center;}
+#supply .big table thead{border-bottom:3px solid #023793;background: #b9d0f7;}
+#supply .big table thead tr th{padding: 20px;font-size: 1.25em;}
+#supply .big table tbody{border-bottom: 3px solid #023793;}
+#supply .big table tbody tr td{padding: 20px;font-size: 1.25em;border-bottom: 2px solid #88aae5;}
+#supply .big table tfoot{border-bottom: 3px solid #023793;}
+#supply .big table tfoot tr td{padding: 20px;font-size: 1.25em;}
+
+#supply .closeBtn{text-align: center;}
+
+/* 용도별 판매량 */
+#sale div{width: 1200px;height: 500px;background-color: #023793;margin: 50px 0 150px 0}

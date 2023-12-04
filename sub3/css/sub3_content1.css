@@ -1,0 +1,45 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h3{font-size:2.188em;}
+
+
+/* 계열사 */
+#subsidiary .energy {overflow: hidden;width: 1200px;padding-left: 20px;margin-bottom: 50px;}
+#subsidiary span{color: rgba(64, 88, 178, 0);}
+
+#subsidiary h3{display: block;padding-left: 50px;}
+#subsidiary h3::before{content: "";display: block;width: 50px;height: 50px;background-color: rgba(64, 88, 178, .5);position: absolute;z-index: -10;border-radius: 20%;}
+#subsidiary .energy dl{float: left;padding-bottom: 30px;margin-bottom: 50px;margin-top: 30px;width: 300px;}
+#subsidiary .energy dt{font-size: 1.875em;text-align: center;margin-bottom: 15px;margin-top: 30px;}
+#subsidiary .energy dl img{transition: all .5s ease}
+#subsidiary .energy dl:hover dt{border-bottom: 1px solid #023793;}
+#subsidiary .energy dl:hover img{transform: scale(1.1);}
+
+
+
+#subsidiary .reduction {overflow: hidden;width: 1200px;padding-left: 20px;margin-bottom: 50px;}
+#subsidiary .reduction dl{float: left;padding-bottom: 30px;margin-bottom: 50px;margin-top: 30px;width: 300px;}
+#subsidiary .reduction dl:hover dt{border-bottom: 1px solid #023793;}
+#subsidiary .reduction dl img{transition: all .5s ease}
+#subsidiary .reduction dl:hover img{transform: scale(1.1);}
+#subsidiary .reduction dt{font-size: 1.875em;text-align: center;margin-bottom: 15px;margin-top: 30px;}
+
+
+
+#subsidiary .build {overflow: hidden;width: 1200px;padding-left: 20px;margin-bottom: 50px;}
+#subsidiary .build dl{float: left;padding-bottom: 30px;margin-bottom: 50px;margin-top: 30px;width: 300px;}
+#subsidiary .build dl:hover dt{border-bottom: 1px solid #023793;}
+#subsidiary .build dl img{transition: all .5s ease}
+#subsidiary .build dl:hover img{transform: scale(1.1);}
+#subsidiary .build dt{font-size: 1.875em;text-align: center;margin-bottom: 15px;margin-top: 30px;}
+
+
+
+
+#subsidiary .eco {overflow: hidden;width: 1200px;padding-left: 20px;margin-bottom: 50px;}
+#subsidiary .eco dl{float: left;padding-bottom: 30px;margin-bottom: 50px;margin-top: 30px;width: 300px;}
+#subsidiary .eco dl:hover dt{border-bottom: 1px solid #023793;}
+#subsidiary .eco dl img{transition: all .5s ease}
+#subsidiary .eco dl:hover img{transform: scale(1.1);}
+#subsidiary .eco dt{font-size: 1.875em;text-align: center;margin-bottom: 15px;margin-top: 30px;}

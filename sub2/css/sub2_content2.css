@@ -1,0 +1,95 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h3{font-size:2.188em;}
+
+/* ESCO */
+#esco{overflow: hidden;margin-bottom: 100px;}
+#esco h3{margin-bottom: 50px;}
+#esco img{z-index: -5;}
+#esco div{position: relative;}
+#esco div .esco_title_top{overflow: hidden;}
+#esco div .esco_title_top li{float: left;font-size: 1.5em;margin: 40px 0 40px 0;text-align: center;position: relative;}
+#esco div .esco_title_top li::before{content: "";display: block;position: absolute;width: 60px;height: 15px;border-radius: 30%;background-color: #339999;z-index: -1;left: 3px;opacity: .3;top: 15px;}
+#esco div .esco_title_top li:nth-of-type(1){margin-left: 100px;}
+#esco div .esco_title_top li:nth-of-type(2){margin-left: 680px;}
+
+
+#esco div p:nth-of-type(1){width: 70px;height: 70px;font-size: 1.25em;text-align: center;display: block;position: absolute;left: 165px;top: 250px;padding-top:10px;background-color: #fff;border-radius: 30%;}
+
+
+#esco div .esco_title_bottom{overflow: hidden;}
+#esco div .esco_title_bottom li{float: left;font-size: 1.25em;margin-top: 20px;}
+
+#esco div .esco_title_bottom li:nth-of-type(1){width: 280px;text-align: center;}
+#esco div .esco_title_bottom li:nth-of-type(2){width: 400px;text-align: center;padding-left: 230px;}
+#esco div .esco_title_bottom li:nth-of-type(3){width: 220px;text-align: center;padding-left: 50px;}
+
+/* 계약 */
+#contract{overflow: hidden;margin-bottom: 100px;}
+#contract h3{text-align: center;}
+#contract ul{overflow: hidden;}
+#contract ul li{float: left;}
+
+#contract dt{font-size: 1.35em;padding-left: 30px;margin-bottom: 10px;position: relative;}
+#contract dt::before{content:"";display: block;width: 10px;height: 10px;background-color: #023793;position: absolute;left: 0px;top: 10px;}
+#contract dd{padding-left: 30px;}
+
+#contract ul li::before{content:"";display: block;}
+#contract ul li::after{content:"";display: block;}
+
+#contract  .contract_top{position: relative;margin-top: 80px;}
+#contract  .contract_top ul:nth-of-type(1) {padding: 80px 0 80px 0;}
+#contract  .contract_top ul:nth-of-type(1) li {width: 200px;height: 200px;border-radius: 50%;text-align: center;margin-right: 200px;position: relative;margin-left: 42px;}
+#contract  .contract_top ul:nth-of-type(1) li:hover::before{transform: scale(1.1);}
+#contract  .contract_top ul:nth-of-type(1) li:last-child{margin-right: 0;}
+#contract .contract_top ul:nth-of-type(1) li p{padding-top: 80px;font-size: 1.375em;}
+
+#contract  .contract_top ul:nth-of-type(1) li::before{content:"";display: block; width: 250px;height: 250px;border-radius: 50%;position: absolute;left: -28px;top: -30px;transition: all .5s;}
+
+#contract  .contract_top ul:nth-of-type(1) li:nth-of-type(1){background-color: #bfe9e9;}
+#contract  .contract_top ul:nth-of-type(1) li:nth-of-type(1)::before{border: 4px solid #bfe9e9;}
+#contract  .contract_top ul:nth-of-type(1) li:nth-of-type(2)
+{background-color: #c4ffdf;}
+#contract  .contract_top ul:nth-of-type(1) li:nth-of-type(2)::before{border: 4px solid #c4ffdf;}
+#contract  .contract_top ul:nth-of-type(1) li:nth-of-type(3){background-color: bisque;}
+#contract  .contract_top ul:nth-of-type(1) li:nth-of-type(3)::before{border: 4px solid bisque;}
+
+#contract  .contract_top ul:nth-of-type(2){position: absolute;left: 330px;top: 200px;}
+#contract  .contract_top ul:nth-of-type(2) li{margin-right: 380px;}
+#contract  .contract_top ul:nth-of-type(2) li:last-child{margin: 0;}
+#contract  .contract_top ul:nth-of-type(2) li p{font-size: 1.125em;}
+
+
+#contract  .contract_bottom  {position: relative;margin-top: 80px;}
+#contract  .contract_bottom ul:nth-of-type(1) {padding: 80px 0 80px 0;}
+#contract  .contract_bottom ul:nth-of-type(1) li {width: 200px;height: 200px;border-radius: 50%;text-align: center;margin-right: 200px;position: relative;margin-left: 42px;}
+#contract  .contract_bottom ul:nth-of-type(1) li:hover::before{transform: scale(1.1);}
+#contract  .contract_bottom ul:nth-of-type(1) li:last-child{margin-right: 0;}
+#contract .contract_bottom ul:nth-of-type(1) li p{padding-top: 80px;font-size: 1.375em;}
+
+#contract  .contract_bottom ul:nth-of-type(1) li::before{content:"";display: block; width: 250px;height: 250px;border-radius: 50%;position: absolute;left: -28px;top: -30px;transition: all .5s;}
+
+#contract  .contract_bottom ul:nth-of-type(1) li:nth-of-type(1){background-color: #c4ffdf;}
+#contract  .contract_bottom ul:nth-of-type(1) li:nth-of-type(1)::before{border: 4px solid #c4ffdf;}
+#contract  .contract_bottom ul:nth-of-type(1) li:nth-of-type(2)
+{background-color:  #bfe9e9;}
+#contract  .contract_bottom ul:nth-of-type(1) li:nth-of-type(2)::before{border: 4px solid #bfe9e9;}
+#contract  .contract_bottom ul:nth-of-type(1) li:nth-of-type(3){background-color: bisque;}
+#contract  .contract_bottom ul:nth-of-type(1) li:nth-of-type(3)::before{border: 4px solid bisque;}
+
+#contract .contract_bottom ul:nth-of-type(2){position: absolute;left: 300px;top: 200px;}
+#contract .contract_bottom ul:nth-of-type(2) li{margin-right: 350px;font-size: 1.125em;}
+#contract .contract_bottom ul:nth-of-type(2) li:last-child{margin: 0;}
+
+
+/* 공급현황 */
+#supply div{position: relative;}
+#supply p{font-size: 1.5em;color: #339999;font-weight: 600;position: relative;}
+#supply span{color: #023793;position: absolute;transition: all .5s;font-size: 1.5em ;opacity: .5;}
+#supply span:hover{opacity: .7;font-size: 1.875em;}
+#supply p:nth-of-type(1){position: absolute;top: 300px;left: 600px;}
+#supply p:nth-of-type(2){position: absolute;bottom: 230px;left: 300px;}
+
+/* 용도별 판매량 */
+ #mychart div{width: 1200px;margin: 50px 0 150px 0}

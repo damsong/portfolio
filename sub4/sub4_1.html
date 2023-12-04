@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개:사업분야</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub4_content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/660c559c10.js" crossorigin="anonymous"></script>
+    <script src="../sub2/js/chart.js"></script>
+</head>
+<body>
+    <? include "../common/subhead.html"?>
+        <div class="visual">
+        <img src="./common/images/visual01.jpg" alt="">
+        <span>IR정보</span>
+        </div>
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub4_1.html" class="current">재무제표</a></li>
+                <li><a href="./sub4_2.html">경영지표</a></li>
+            </ul>
+        </div>
+
+        <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                home&gt;IR정보&gt;<strong>재무제표</strong>
+            </div>
+            <h2><span>F</span>inancial <span>S</span>tatements</h2>
+            <p>경동도시가스의 기업의 경영 성적 및 년도별 재정정보를
+                <br>조회하실 수 있습니다.</p>
+        </div>
+        <div class="content_area">
+            <section id="graph">
+                <h3>재무상태표
+                </h3>
+                <div>
+                    <canvas id="myChart" style="margin: 50px 0 150px 0;"></canvas>
+                </div>
+            </section>
+          <section class="property">
+            <h4>자산</h4>
+              <table >
+                <caption>(단위:백만원)</caption>
+                  <thead>
+                      <tr>
+                          <th colspan="2">구분</th>
+                          <th >2022년</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td rowspan="6">유동자산</td>
+                          <td>현금 및 현금성자산</td>
+                          <td>89,278</td>
+                      </tr>
+                      <tr>
+                          <td>금융상품</td>
+                          <td>109,200</td>
+                      </tr>
+                      <tr>
+                          <td>매출채권 및 미수금</td>
+                          <td>413,721</td>
+                      </tr>
+                      <tr>
+                          <td>재고자산</td>
+                          <td>1,716</td>
+                      </tr>
+                      <tr>
+                          <td>기타유동자산</td>
+                          <td>73,112</td>
+                      </tr>
+                      <tr>
+                          <td>계</td>
+                          <td>687,027</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="6">비유동자산</td>
+                        <td>투자자산</td>
+                        <td>15,581</td>
+                    </tr>
+                    <tr>
+                        <td>유형자산</td>
+                        <td>324,106</td>
+                    </tr>
+                    <tr>
+                        <td>사용권자산</td>
+                        <td>12,224</td>
+                    </tr>
+                    <tr>
+                        <td>무형자산</td>
+                        <td>8,217</td>
+                    </tr>
+                    <tr>
+                        <td>기타유동자산</td>
+                        <td>17,461</td>
+                    </tr>
+                    <tr>
+                        <td>계</td>
+                        <td>377,589</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                        <td colspan="2">자산총계</td>
+                        <td>1,064,616</td>
+                    </tr>
+                  </tfoot>
+              </table>
+          </section>
+          <section class="liabilities">
+            <h4>부채</h4>
+              <table >
+                <caption>(단위:백만원)</caption>
+                  <thead>
+                      <tr>
+                          <th colspan="2">구분</th>
+                          <th >2022년</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td rowspan="4">유동부채</td>
+                          <td>매입채무 및 미지급금</td>
+                          <td>566,996</td>
+                      </tr>
+                      <tr>
+                          <td>유동성장기부채</td>
+                          <td>909</td>
+                      </tr>
+                      <tr>
+                          <td>기타유동부채</td>
+                          <td>29,905</td>
+                      </tr>
+                      <tr>
+                          <td>계</td>
+                          <td>597,810</td>
+                      </tr>
+                      <tr>
+                          <td rowspan="4">비유동부채</td>
+                          <td>장기차입금</td>
+                          <td>5,681</td>
+                      </tr>
+                      <tr>
+                          <td>이연법인세부채</td>
+                          <td>9,625</td>
+                      </tr>
+                      <tr>
+                        <td>기타비유동부채</td>
+                        <td>58,978</td>
+                    </tr>
+                    <tr>
+                        <td>계</td>
+                        <td>74,284</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                        <td colspan="2">부채총계</td>
+                        <td>672,094</td>
+                    </tr>
+                  </tfoot>
+              </table>
+          </section>
+          <section class="capital">
+            <h4>자본</h4>
+              <table >
+                <caption>(단위:백만원)</caption>
+                  <thead>
+                      <tr>
+                          <th>구분</th>
+                          <th>2022년</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>자본금</td>
+                          <td>14,739</td>
+                      </tr>
+                      <tr>
+                          <td>자본잉여금</td>
+                          <td>259,584</td>
+                      </tr>
+                      <tr>
+                          <td>이익잉여금</td>
+                          <td>115,357</td>
+                      </tr>
+                      <tr>
+                          <td>기타자본구성요소</td>
+                          <td>2,842</td>
+                      </tr>
+
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                        <td>자본총계</td>
+                        <td>392,522</td>
+                    </tr>
+                  </tfoot>
+              </table>
+          </section>
+          <section class="income_statement">
+            <h4>손익계산서</h4>
+              <table >
+                <caption>(단위:백만원)</caption>
+                  <thead>
+                      <tr>
+                          <th>구분</th>
+                          <th>2022년</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>I. 매출액</td>
+                          <td>2,304,288</td>
+                      </tr>
+                      <tr>
+                          <td>Ⅱ. 매출원가</td>
+                          <td>2,190,071</td>
+                      </tr>
+                      <tr>
+                          <td>Ⅲ. 매출총이익</td>
+                          <td>114,217</td>
+                      </tr>
+                      <tr>
+                          <td>Ⅳ. 판매관리비</td>
+                          <td>89,164</td>
+                      </tr>
+                      <tr>
+                          <td>V. 영업이익</td>
+                          <td>25,053</td>
+                      </tr>
+                      <tr>
+                          <td>   기타수익</td>
+                          <td>3,098</td>
+                      </tr>
+                      <tr>
+                        <td>   기타비용</td>
+                        <td>636</td>
+                    </tr>
+                    <tr>
+                        <td>   금융수익</td>
+                        <td>3,977</td>
+                    </tr>
+                    <tr>
+                        <td>   금융비용</td>
+                        <td>865</td>
+                    </tr>
+                    <tr>
+                        <td>Ⅵ. 법인세비용차감전순이익</td>
+                        <td>30,627</td>
+                    </tr>
+                    <tr>
+                        <td>   법인세비용</td>
+                        <td>7,139</td>
+                    </tr>
+                    <tr>
+                        <td>Ⅶ. 당기순이익</td>
+                        <td>23,488</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </section>
+            </div>
+</article>
+<script>
+    const data = {
+      labels:  [
+  '2022','2021','2020','2019','2018','2017'],
+  // labels: [] <- 배열입니다., X축의 항목
+      datasets: [{
+        label: '자산(백만원)',
+        data: [1064616,901836,694182,747454,775881,707917], //Y축의 항목, 가장 큰 값을 10점대로 만들어줍니다.
+        backgroundColor: [
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+        ],
+      /*  borderColor: [
+          'rgb(54, 162, 235)',
+          'rgb(54, 162, 235)',
+          'rgb(54, 162, 235)',
+          'rgb(54, 162, 235)',
+          'rgb(54, 162, 235)',
+          'rgb(54, 162, 235)',
+        ]*/
+       },
+
+        {
+        label: '부채(백만원)',
+        data: [672094,528178,354868,409753,457121,415288], //Y축의 항목, 가장 큰 값을 10점대로 만들어줍니다.
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(255, 99, 132, 0.2)',
+        ],
+   /*     borderColor: [
+          'rgb(255, 99, 132)',
+          'rgb(255, 99, 132)',
+          'rgb(255, 99, 132)',
+          'rgb(255, 99, 132)',
+          'rgb(255, 99, 132)',
+          'rgb(255, 99, 132)',
+        ]*/
+       },
+
+        { label: '자본(백만원)',
+        data: [392522,373660,342314,337701,318760,292626], //Y축의 항목, 가장 큰 값을 10점대로 만들어줍니다.
+        backgroundColor: [
+          'rgba(255, 222, 0, 0.2)',
+          'rgba(255, 222, 0, 0.2)',
+          'rgba(255, 222, 0, 0.2)',
+          'rgba(255, 222, 0, 0.2)',
+          'rgba(255, 222, 0, 0.2)',
+          'rgba(255, 222, 0, 0.2)',
+        ],
+        /* borderColor: [
+         'rgb(255, 222, 0)',
+         'rgb(255, 222, 0)',
+         'rgb(255, 222, 0)',
+         'rgb(255, 222, 0)',
+         'rgb(255, 222, 0)',
+         'rgb(255, 222, 0)',
+         ], */
+
+        borderWidth: 0
+      }]
+    };
+    
+    // ★★★★중요
+    const config = {
+      type: 'bar',
+      //type: '차트종류'
+      data: data,
+      //data: 객체별 이름
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true  //y축은 0부터 시작된다.
+          }
+        }
+      },
+    };
+
+
+    const myChart = new Chart(
+          document.getElementById('myChart'), //태그의 캔버스 이름 넣어주기
+          config
+    );
+
+
+          </script>
+<? include "../common/subfoot.html"?>
+    
+</body>
+</html>

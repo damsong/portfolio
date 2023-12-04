@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오맵-멀티</title>
+    <style>
+        *{margin: 0;padding: 0;}
+
+        .map_box{width: 1200px;margin: 0 auto;}
+        .map_box ul{overflow: hidden;}
+        .map_box ul li{width: 33.33%;float: left;}
+        .map_box ul li a{color: #333;text-decoration: none;display: block;padding: 15px 0;text-align: center;background: orange;}
+
+        .way{width: 1200px;margin: 0 auto;border: 1px solid red;}
+        .way h3{font-size: 40px;text-align: center;margin-bottom: 30px;}
+        .way #map1,#map2,#map3{width: 1000px;margin: 0 auto;height: 500px;border: 1px solid #999;}
+    </style>
+       <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=86395a002bf799c4fb6332cfde1e952b"></script>
+       <script src="./js/map.js"></script>
+</head>
+<body>
+   <div class="map_box">
+    <ul>
+        <li><a href="#">본사</a></li>
+        <li><a href="#">경기</a></li>
+        <li><a href="#">충청</a></li>
+    </ul>
+     <section class="way">
+         <h3>찾아오시는길-본사</h3>
+         <div id="map1">
+         </div>
+     </section>
+   </div>
+   <div class="map_box">
+     <section class="way">
+         <h3>찾아오시는길-경기</h3>
+         <div id="map2">
+         </div>
+     </section>
+   </div>
+   <div class="map_box">
+     <section class="way">
+         <h3>찾아오시는길-충청</h3>
+         <div id="map3">
+         </div>
+     </section>
+   </div>
+    
+</body>
+</html>

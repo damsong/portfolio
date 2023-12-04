@@ -1,0 +1,88 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+
+#content h3{font-size:2.188em;}
+
+/* KTRM */
+.box{
+    width: 1200px; margin: 50px auto; 
+   padding: 30px 0; 
+    font-size: 250px; font-weight: 800;
+    text-align: center; 
+    text-shadow: 3px 3px 10px rgba(0,0,0,.3);
+  
+    color: transparent; /* 글자색을 투명하게 처리 */
+    -webkit-text-fill-color: transparent;
+    /* 최신문법 webkit넣기!! */
+    background-clip: text; /* 글자에 배경이미지를 넣기 */
+    -webkit-background-clip: text;
+    /* 최신문법 webkit넣기!! */
+    
+    background-image:  url(../images/sub3/KTRM.jpg); 
+    background-size: 100%; 
+    background-position: left top; 
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+  
+    transition:all .3s; 
+  }
+  .box:hover background-image{transform: scale(1.2);}
+  
+  /* KTRM 설명 p태그 */
+  .content_area p{font-size: 2em;text-align: center;}
+
+
+/* 기술로드맵 컨텐츠1 */
+#KTRM ul{overflow: hidden;position: relative;margin: 80px auto;}
+#KTRM ul li{float: left;}
+#KTRM ul img{width: 100px;position: absolute;left:45%;top: 65%;transform: translate(-50%,-50%);}
+#KTRM ul li:nth-of-type(2){text-align: right;position: absolute;right: 0;top: 80px;}
+#KTRM ul li dt{font-size: 1.675em;font-weight: 600;margin-bottom: 10px;color : #023793;}
+#KTRM ul li dd{font-size: 1.375em;margin-bottom: 5px;}
+#KTRM li p{font-size: 1.375em;}
+
+
+/* 기술로드맵 컨텐츠2 */
+#OM ul{overflow: hidden;position: relative;margin: 80px auto;}
+#OM ul li{float: left;}
+#OM ul img{width: 100px;position: absolute;left:45%;top: 65%;transform: translate(-50%,-50%);}
+#OM ul li:nth-of-type(2){text-align: right;position: absolute;right: 0;top: 80px;}
+#OM ul li dt{font-size: 1.675em;font-weight: 600;margin-bottom: 10px;color : #023793;}
+#OM ul li dd{font-size: 1.375em;margin-bottom: 5px;}
+#OM li p{font-size: 1.375em;}
+
+
+/* 기술로드맵 컨텐츠2 */
+#tech ul{overflow: hidden;position: relative;margin: 0 0 150px 0;}
+#tech ul li{float: left;}
+#tech ul img{width: 100px;position: absolute;left:45%;top: 65%;transform: translate(-50%,-50%);}
+#tech ul li:nth-of-type(2){text-align: right;position: absolute;right: 0;top: 80px;}
+#tech ul li dt{font-size: 1.675em;font-weight: 600;margin-bottom: 10px;color : #023793;}
+#tech ul li dd{font-size: 1.375em;}
+#tech li p{font-size: 1.375em;}
+
+
+
+ #QMA h3{margin-bottom: 30px;}
+ #QMA p{font-size: 1.375em;}
+
+
+ /* eco */
+ #eco {overflow: hidden;margin-bottom: 100px;}
+#eco img{float: left;width: 400px;transition: all .4s;}
+#eco:hover img{border-radius: 30px;}
+#eco div{width: 600px;float: right;}
+#eco div p{text-align: justify;font-size:1.25em;margin-top: 100px;}
+
+
+/* eco_solution */
+#eco_solution{background-color: #f5f5f5;padding: 20px;margin-bottom: 150px;}
+#eco_solution h3{margin: 30px;}
+#eco_solution dl{font-size: 1.25em;margin-bottom: 30px;margin-top: 50px;}
+
+#eco_solution dt{background-color: #fff;border-radius: 25px;font-size: 1.375em;margin:0 20px 20px 20px;padding: 10px 30px 20px;transition: all .4s;}
+#eco_solution dt:hover{box-shadow: 2px 2px 10px 2px rgba(0,0,0,.4);}
+#eco_solution dt span{color: #638cd2; font-weight: 600;}
+#eco_solution dt .num{color: #023793;font-size: 1.4em;}
+#eco_solution dd{padding-left: 50px;}

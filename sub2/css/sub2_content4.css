@@ -1,0 +1,30 @@
+/* 회사 소개 본문 css */
+#content .content_area{}
+#content .title_area p{font-size : 1.875em;color : #023793;text-align : center;margin : 150px;}
+#content h3{font-size:2.188em;}
+
+
+/* 수소충전사업 */
+#hydrogen{overflow: hidden;margin-bottom: 100px;}
+#hydrogen img{float: left;width: 400px;}
+#hydrogen div{width: 600px;float: right;}
+#hydrogen div p{text-align: justify;font-size:1.25em;margin-top: 100px;}
+
+/* CNG SYSTEM */
+#hydrogen_system{background-image: url(../images/sub3/cng02.jpg);}
+#hydrogen_system ul{overflow: hidden;width: 1200px;height: 500px;} 
+#hydrogen_system ul li{float: left;margin-top: 124px;text-align: center;background-color: #fff;width: 150px;height: 130px;margin-left: 56px;padding-top: 20px;transition: all .8s;}
+#hydrogen_system ul li:hover{box-shadow: 2px 2px 20px 2px rgba(0,0,0,.6);transform: rotateY(360deg);background-color: #023793;}
+#hydrogen_system ul li:hover span, #hydrogen_system ul li dl dd{color: #fff;}
+
+#hydrogen_system ul li:nth-of-type(1){margin-left: 10px;}
+
+#hydrogen_system ul li dl span{font-size: 5em;color: #1c55af;} 
+#hydrogen_system ul li dl dd{font-size: 1.125em;} 
+
+/* cng 기타정보 */
+#hydrogen_info {margin-bottom: 150px;}
+#hydrogen_info dl{margin-bottom: 30px;}
+#hydrogen_info dt{font-size: 1.5em;margin-bottom: 20px;}
+#hydrogen_info dd{padding-left: 10px;font-size: 1.125em;}
+#hydrogen_info dd span{color: #023793;font-size: 1.125em;}

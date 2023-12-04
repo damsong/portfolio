@@ -1,0 +1,25 @@
+/* 기업소개 공통 css */
+.visual{width: 2000px;height: 490px;position: relative;left: 50%;margin-left: -1000px;overflow: hidden;}
+.visual img{animation: visual_ani 4s ease-in-out; animation-fill-mode:forwards}
+
+@keyframes visual_ani {from {transform: scale(1);} to {transform: scale(1.05);}}
+.visual span{display: block;font-size: 30px;color: #fff;position: absolute;left: 50%;margin-left: -50px;top: 320px;}
+.sub_menu{width:100%;position: relative;z-index: 110px;}
+.sub_menu ul{width: 1200px;margin: 0 auto;overflow: hidden;border-bottom: 1px solid #ccc;}
+.sub_menu ul li{width: 25%;float: left;text-align: center;background-color: #fff;font-size: 1.25em;}
+.sub_menu ul li a{padding:25px 0;}
+.sub_menu ul li:hover a, .sub_menu ul li .current{background:  #023793;color: #fff;font-weight: 700;font-size: 20px;}
+
+#content{width: 1200px;margin: 0 auto ;}
+#content .title_area{overflow: hidden;position: relative;}
+#content .title_area:after{content: "";display: block;width: 100px;height: 3px;position: absolute;left: 550px;top:230px;background-color:#023793;}
+#content .title_area .line_map{font-size: 1em;position: absolute;left: 500px;top: 20px;color: #333;}
+#content .title_area h2{font-size: 3.125em;font-weight: 700;text-align: center;margin: 130px 0 20px;}
+#content .title_area h2 span{color: #023793;}
+#content .title_area p{font-size: 1.875em;color: #023793;text-align: center;margin: 150px;}
+
+
+
+
+
+
