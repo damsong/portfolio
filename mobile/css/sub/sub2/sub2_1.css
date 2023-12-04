@@ -1,0 +1,31 @@
+.visual{background: url(https://dambidam.cafe24.com/mobile/images/sub2/common/visualx2.jpg) center bottom no-repeat; background-size: cover;}
+.sub_menu ul{width: 90%;}
+.sub_menu ul li{width: 25%;}
+.sub_menu ul li a{font-size: 0.7em;}
+.sub_menu ul li .current{background:  #023793;color: #fff;font-weight: 700;font-size: 0.8em;}
+/* 콘텐츠 영역 */
+#content .contentArea{}
+#content .contentArea img{width: 100%; border-radius: 15px;}
+#content h3{font-size: 1.5em;font-weight: 700;color: #023793;;margin-bottom: 25px;}
+/* 도시가스란? */
+#content .con1 ul li dl dd{line-height: 1.7em;}
+#content .con1{width: 94%; margin:0 3% 50px 3%;}
+#content .con1 ul>li{margin-bottom: 10px;}
+#content .con1 p{text-align: justify;}
+
+/*장점*/
+#content .con2{}
+#content .con2 h3{text-align: center;}
+
+#content .con2 ul{overflow: hidden;margin-bottom: 50px;}
+#content .con2 li{width: 94%; margin:0 3% 0 3%;padding: 5% 0 5% 0;}
+
+#content .con2 ul li:nth-of-type(1){width: 50%;float: left;margin-right: 5%;}
+#content .con2 ul:nth-of-type(2) {background-color: #d6ebea;}
+#content .con2 ul:nth-of-type(4) {background-color: #d6ebea;}
+#content .con2 ul:nth-of-type(2) li:nth-of-type(1){width: 50%;float: right;margin-left: 5%;}
+#content .con2 ul:nth-of-type(4) li:nth-of-type(1){background-color: #d6ebea;width: 50%;float: right;margin-left: 5%;}
+#content .con2 ul li{text-align: justify;}
+#content .con2 ul li dl dt{text-align: left;color: #023793;font-weight: 600;font-size: 1.5em;margin-bottom: 5%;}
+
+

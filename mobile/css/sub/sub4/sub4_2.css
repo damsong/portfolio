@@ -1,0 +1,34 @@
+.visual{background: url(https://dambidam.cafe24.com/mobile/images/sub4/common/visualx2.jpg) center bottom no-repeat; background-size: cover;}
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+
+/* 콘텐츠 영역 */
+#content .contentArea{width: 94%; margin:0 3% 0 3%}
+#content h3{font-size: 1.5em;font-weight: 700;color: #023793;;margin-bottom: 25px;}
+
+
+/* Q&A */
+#content .qna{
+    padding: 50px 0 10px 0; 
+    background: #fff;position: relative;} 
+  #content .qna a {color: #333;}
+  #content .qna h3{text-align: center;}
+  #content .qna ul{
+    color: #333; margin: 0 30px 40px 30px;}
+  #content .qna ul li{border-top: 1px solid rgba(238,238,238,.4);}
+  #content .qna ul li:last-child{border-bottom: 1px solid rgba(238,238,238,.4);}
+  #content .qna ul li p.question a{
+    font-size: 1.2rem;}
+  #content .qna ul li .question .trigger{
+    font-weight: 500; font-size: 1em;
+    padding: 20px 0 20px 60px;
+    position: relative;}
+  #content .qna ul li .question .trigger::before{
+    content: ''; display: block;
+    width: 28px; height: 40px;
+    background: url(https://dambidam.cafe24.com/mobile/images/qnax2.jpg) no-repeat;
+    position: absolute; left: 0px; top: 18px;}
+  #content .qna ul li .answer{
+    display: none; padding: 20px 40px;
+    font-size: .98rem; text-align: justify;
+    background: #f7f7f7;}
+ 

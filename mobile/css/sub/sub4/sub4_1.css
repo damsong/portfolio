@@ -1,0 +1,24 @@
+.visual{background: url(https://dambidam.cafe24.com/mobile/images/sub4/common/visualx2.jpg) center bottom no-repeat; background-size: cover;}
+
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+
+/* 콘텐츠 영역 */
+#content .contentArea{width: 94%; margin:0 3% 0 3%}
+#content .contentArea img{width: 100%; border-radius: 15px;}
+#content h3{font-size: 1.5em;font-weight: 700;color: #023793;;margin-bottom: 25px;}
+
+
+
+
+#content dl{margin-bottom: 10px;}
+#content dl dt{font-size: 1.3em;margin-bottom: 5px;}
+#content  dl dd{position: relative;text-align: justify;margin-bottom: 3px;}
+#content  dl dd span{ font-size: 1.2em;
+    color: #023793;}
+
+#content .con2 dl span{ font-size: 1.2em;
+    color: #023793;
+    position: relative;
+    left: 0;
+    top: 5px;}
+    #contnet .con1 dt{color: #023793;}

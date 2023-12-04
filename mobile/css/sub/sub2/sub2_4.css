@@ -1,0 +1,22 @@
+.visual{background: url(https://dambidam.cafe24.com/mobile/images/sub2/common/visualx2.jpg) center bottom no-repeat; background-size: cover;}
+
+.sub_menu ul{width: 90%;}
+.sub_menu ul li{width: 25%;}
+.sub_menu ul li a{font-size: 0.7em;}
+.sub_menu ul li .current{background:  #023793;color: #fff;font-weight: 700;font-size: 0.8em;}
+#content h3{font-size: 1.5em;font-weight: 700;color: #023793;margin-bottom: 25px;}
+
+/* contentArea */
+#content .contentArea{width: 94%; margin:0 3% 25% 3%;}
+#content .con1{}
+#content .con1 ul li dl dd{line-height: 1.7em;}
+#content .con1 ul>li{margin-bottom: 10px;}
+#content .con1 p{text-align: justify;}
+#content .con1 img{width : 100%; border-radius: 15px;}
+
+#content .con2 ul li{margin-bottom: 5px;}
+
+
+#content .con3 dl{margin-bottom: 5px;}
+#content .con3 dt{font-size: 1.3em;color: #023793;}
+#content .con3 dd{text-align: justify;}

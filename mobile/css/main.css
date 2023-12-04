@@ -1,0 +1,105 @@
+/* CSS Document */
+#content h3{font-size: 1.8em;font-weight: 600;color: #023793;margin-bottom: 45PX;}
+
+/* 비주얼 영역 */
+
+.visual .swiper-container {
+    width: 100%;
+    height: auto;
+  }
+.visual .swiper-slide {
+    text-align: center;
+    font-size: 1em;
+    background: #fff;
+  }
+
+ .visual{position: relative; margin-top: 49px;}
+ .visual img{filter: brightness(80%);}
+ .visual span{color: #ffcc33;}
+ .visual p{position: absolute; top: 55%; left: 10%; width: 100%; text-align: left; font-size: 1.45em; color: #fff;font-weight: 500;}
+ .visual .swiper-pagination-bullet-active{color:#019ac0;}
+ .visual .swiper-pagination-bullet{width: 15px; height: 15px;}
+ .visual .swiper-button-next, .swiper-button-prev{color:#019ac0;}
+ .visual .swiper-pagination{color: #333;}
+ .visual img{width: 100%;}
+
+
+ /* content */
+ #content{}
+
+ /* 사업영역 */
+ #content .business{margin-bottom: 100px;margin-top: 50px;}
+ #content .business ul{ margin:10px 10px;overflow: hidden;}
+ #content .business h3{margin-left: 10px;}
+ #content .business p{text-align: center;margin-bottom: 18px;
+ font-size: 1.2em;}
+ #content .business ul li{float: left;width:49%;position: relative; margin: 0 .5%;}
+ #content .business ul li:nth-of-type(2){}
+ #content .business ul li h4{
+  font-size: 1.25em;
+  color: #fff;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 18px;
+  width: 100%;
+  text-align: left;
+  background: rgba(0, 0, 0, .6);box-sizing: border-box;}
+
+ #content .business ul li a{display: block;}
+ #content .business ul li img{width:100%}
+
+/* 기술로드맵 */
+#content .ktrm{margin-bottom: 100px;margin-top: 50px;}
+#content .ktrm h3{text-align: center;margin-bottom: 45px;}
+#content .ktrm .swiper-wrapper{padding-bottom: 10px;}
+#content .ktrm .swiper-wrapper .swiper-slide{padding-bottom: 10px;}
+#content .ktrm .slide{overflow: hidden;padding-bottom: 90px;position: relative;}
+#content .ktrm .slide::before{display: block;content: "";background-color: #D9E1EF;border-radius: 50%;width:230px;height: 230px;position: absolute;left:50%;transform: translate(-50%);z-index: -1;}
+#content .ktrm .icon{position: absolute;left: 50%;top: 70px;transform: translate(-50%,-50%);}
+#content .ktrm .icon i{font-size: 5em;}
+#content .ktrm .slide dl{width: 150px;padding-top: 120px;margin: 0 auto;}
+#content .ktrm .slide dt{text-align: center;font-size: 1.25em;}
+#content .ktrm .slide dd{text-align: center;}
+#content .ktrm .slide .shadow{position: absolute;width: 150px;height: 0px;box-shadow: 2px 2px 10px 2px rgba(0,0,0,.6);left: 50%;top: 245px;transform: translate(-50%,-50%);}
+
+/* 콜센터*/
+#content .call{position: relative;margin-bottom: 100px;margin-top: 50px;margin-left: 10px;margin-right: 10px;}
+#content .call img{width: 80%;}
+#content .call dl{position: absolute;bottom: -20px;right: 20px;width: 180px;background-color: #fff;padding: 20px;box-shadow: 1px 1px 10px 1px rgba(0,0,0,.3); border-radius: 15px;}
+#content .call dt{font-size: 1.2em; font-weight: 700;}
+#content .call dd{line-height:1.8em;}
+#content .call dd:nth-of-type(2){font-size: 1.2em; font-weight: 700; color: #023793;}
+
+/* Q&A */
+/* Q&A 영역 */
+#content .qna{
+  padding: 50px 0 10px; 
+  background: #fff;position: relative;} 
+#content .qna a {color: #333;}
+#content .qna h3{text-align: center;}
+#content .qna ul{
+  color: #333; margin: 0 30px 40px 30px;}
+#content .qna ul li{border-top: 1px solid rgba(238,238,238,.4);}
+#content .qna ul li:last-child{border-bottom: 1px solid rgba(238,238,238,.4);}
+#content .qna ul li p.question a{
+  font-size: 1.2rem;}
+#content .qna ul li .question .trigger{
+  font-weight: 500; font-size: 1em;
+  padding: 20px 0 20px 60px;
+  position: relative;}
+#content .qna ul li .question .trigger::before{
+  content: ''; display: block;
+  width: 28px; height: 40px;
+  background: url(../images/qnax2.jpg) no-repeat;
+  position: absolute; left: 0px; top: 18px;}
+#content .qna ul li .answer{
+  display: none; padding: 20px 40px;
+  font-size: .98rem; text-align: justify;
+  background: #f7f7f7;}
+#content .qna .read_more{
+ position: absolute;right: 50px;top: 60px;}
+#content .qna .read_more span{font-size: 3em;color: #023793;
+}

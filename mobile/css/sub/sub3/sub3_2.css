@@ -1,0 +1,53 @@
+.visual{background: url(https://dambidam.cafe24.com/mobile/images/sub3/common/visualx2.jpg) center bottom no-repeat; background-size: cover;}
+.sub_menu ul li{width: 50%;float: left;text-align: center;background-color: #fff;font-size: 1.1em;}
+
+  /* 콘텐츠 영역 */
+  #content .contentArea{}
+  #content .contentArea img{width: 100%; border-radius: 15px;}
+  #content h3{font-size: 1.5em;font-weight: 700;color: #023793;;margin-bottom: 25px;}
+
+/* KTRM */
+#content .contentArea .box{
+   
+    font-size: 7em; font-weight: 900;
+    text-align: center; 
+    text-shadow: 3px 3px 10px rgba(0,0,0,.3);
+  
+    color: transparent; /* 글자색을 투명하게 처리 */
+    -webkit-text-fill-color: transparent;
+    /* 최신문법 webkit넣기!! */
+    background-clip: text; /* 글자에 배경이미지를 넣기 */
+    -webkit-background-clip: text;
+    /* 최신문법 webkit넣기!! */
+    
+    background-image:  url(https://dambidam.cafe24.com/sub3/images/sub3/KTRM.jpg); 
+    background-size: 100%; 
+    background-position: left top; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+  }
+
+/* con2 */
+#content .con2{}
+#content .con2 h3{text-align: left; margin:0 3% 0 3%}
+
+#content .con2 ul{overflow: hidden;margin-bottom: 50px;padding: 0 10px;}
+#content .con2 li{width: 94%;padding: 5% 0 5% 0;}
+
+#content .con2 ul li:nth-of-type(1){width: 50%;float: left;}
+#content .con2 ul li:nth-of-type(2){width: 45%;float: right;}
+#content .con2 ul:nth-of-type(2) {background-color: #d6ebea;}
+#content .con2 ul:nth-of-type(2) li:nth-of-type(1){width: 50%;float: right;}
+#content .con2 ul:nth-of-type(2) li:nth-of-type(2){width: 50%;float: left;}
+#content .con2 ul li{text-align: justify;}
+#content .con2 ul li dl dt{text-align: left;color: #023793;font-weight: 600;font-size: 1.4em;margin-bottom: 5%;}
+  
+/* con3 */
+.con3{background-color: #f5f5f5; padding:0 3% 0 3%;}
+.con3 h3{padding-top: 20px;}
+.con3 dl{font-size: 1.25em;padding-bottom: 35px;}
+
+.con3 dt{background-color: #fff;border-radius: 25px;font-size: 1.1rem;box-shadow: 1px 1px 7px;padding: 15px;margin-bottom: 15px; }
+.con3 dt span{color: #638cd2; font-weight: 600;}
+.con3 dt .num{color: #023793;font-size: 1.1rem;}
+.con3 dd{font-size: 1rem;text-align: justify;padding-right: 5px;}

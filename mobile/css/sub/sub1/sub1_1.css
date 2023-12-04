@@ -1,0 +1,10 @@
+#content .contentArea{}
+#content .contentArea img{
+    width: 94%;
+    margin:3%;
+    border-radius: 10px;}
+
+#content .contentArea .content_1 li {position: relative;margin-bottom: 30px;}
+#content .contentArea .content_1 dt {color: #fff;text-align: center;position: absolute;left: 50%;top: 40%;transform: translate(-50%,-50%);width: 100%;font-size: 1.625em;}
+#content .contentArea .content_1 dl dt>i{font-size: 2em;padding-bottom:5px;}
+#content .contentArea .content_1 dd{text-align: justify;line-height: 1.2em;margin:0 3%;}

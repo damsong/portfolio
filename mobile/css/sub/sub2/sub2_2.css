@@ -1,0 +1,37 @@
+.visual{background: url(https://dambidam.cafe24.com/mobile/images/sub2/common/visualx2.jpg) center bottom no-repeat; background-size: cover;}
+
+.sub_menu ul{width: 90%;}
+.sub_menu ul li{width: 25%;}
+.sub_menu ul li a{font-size: 0.7em;}
+.sub_menu ul li .current{background:  #023793;color: #fff;font-weight: 700;font-size: 0.8em;}
+
+
+/* contentArea */
+#content .contentArea{width: 94%; margin:0 3% 25% 3%;}
+
+#content dt{font-size: 1.5em;font-weight: 700;color: #023793;margin-bottom: 6%;}
+#content h3{font-size: 1.5em;font-weight: 700;color: #023793;margin-bottom: 25px;}
+#content h4{font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #023793;
+    font-weight: 600;}
+/* ESCO 개요 */
+
+#content .con1 dd{text-align: justify;line-height: 1.7em;}
+
+
+/* ESCO 특징 */
+
+/* 실적사례 */
+#content .con3 img{width: 100%;border-radius: 15px;}
+#content .con3 ul {overflow: hidden;}
+#content .con3 ul>li{float: left;width: 48%;margin: 10px 0 0  ;}
+#content .con3 ul li:nth-child(2){width: 48%;margin: 45px 1% 0 1%;}
+
+.con3 table{border-spacing:0;text-align: center;width: 100%;}
+table tr td{border-bottom: 1px solid #88aae5;border-left: 1px solid #88aae5;}
+table tr td{padding: 5px;}
+table tr td:nth-child(1){border-left: 0;}
+table thead tr th{border-top: 2px solid #023793;border-bottom: 1px solid #88aae5;border-left: 1px solid #88aae5;font-weight: 400;}
+table thead tr th:nth-child(1){border-left: 0;}
+table tfoot tr td{border-bottom: 2px solid #023793;}

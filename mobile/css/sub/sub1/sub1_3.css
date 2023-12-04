@@ -1,0 +1,13 @@
+#content h3{font-size: 1.5em;text-align: center;font-weight: 700;color: #023793;margin-bottom: 25px;}
+#content .contentArea{width: 94%; margin:0 3% 25% 3%;}
+/* 맵 */
+#content .contentArea .way{}
+
+.way #map{height: 300px;border: 1px solid #999;}
+
+
+/* info */
+.info dl{margin-top: 50px;margin-bottom: 50px;}
+.info dt{font-size: 1.3em;margin-bottom:15px;color:#023793;font-weight: 600;}
+.info dd{font-size: 1.2em;}
+.info dd i{font-size: 1.2em;}
